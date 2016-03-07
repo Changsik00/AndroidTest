@@ -31,8 +31,16 @@ class MainActivity : AppCompatActivity() {
         var activityArray: Array<Class<*>>
 
         init {
-            titleArray = arrayOf("Anko DSL")
-            activityArray = arrayOf(AnkoDSLActivity::class.java)
+            titleArray = arrayOf(
+                    "Anko DSL",
+                    "Http Request"
+            )
+
+            activityArray = arrayOf(
+                    AnkoDSLActivity::class.java,
+                    HttpRequestActivity::class.java
+            )
+
             this.context = context
         }
 
