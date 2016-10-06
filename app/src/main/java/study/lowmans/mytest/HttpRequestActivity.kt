@@ -10,7 +10,7 @@ class HttpRequestActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val mainView = HttpRequestActivityUI().setContentView(this)
+        val mainView = HttpRequestActivityUI(124).setContentView(this)
         //        mainView.find<Button>(1).setOnClickListener(this)
         //        mainView.find<Button>(2).setOnClickListener(this)
     }
