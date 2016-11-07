@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 
 buildscript {
-    ext.kotlin_version = '1.0.0'
+    ext.kotlin_version = '1.0.4'
     ext.anko_version = '0.8.3'
 
     repositories {
@@ -19,7 +19,7 @@ buildscript {
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "study.lowmans.mytest"
